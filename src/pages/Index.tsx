@@ -1,3 +1,4 @@
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -46,7 +47,7 @@ const Index = () => {
                 <h3 className="font-semibold text-gray-700 mb-3">Overall Readiness Score</h3>
                 <div className="relative">
                   <div className="w-full bg-gray-200 rounded-full h-4">
-                    <div className="bg-gradient-to-r from-orange-500 to-blue-600 h-4 rounded-full transition-all duration-300" style={{width: '68%'}}></div>
+                    <div className="bg-gradient-to-r from-orange-500 to-blue-600 h-4 rounded-full" style={{width: '68%'}}></div>
                   </div>
                   <span className="absolute right-0 top-5 text-sm text-gray-600">68/100</span>
                 </div>
@@ -59,7 +60,6 @@ const Index = () => {
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Skill Assessment</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              {/* Digital Tools */}
               <div>
                 <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
@@ -77,7 +77,6 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Business Skills */}
               <div>
                 <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center">
                   <span className="w-2 h-2 bg-indigo-500 rounded-full mr-2"></span>
@@ -148,29 +147,25 @@ const Index = () => {
           <section className="p-8 border-b border-gray-200">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Key Development Areas</h2>
             
-            <div className="space-y-6">
-              {/* Critical Gaps */}
-              <div>
-                <h3 className="text-lg font-semibold text-red-700 mb-4 flex items-center">
-                  <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
-                  High Priority Areas
-                </h3>
-                <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
-                  <h4 className="font-semibold text-red-800">Data Analysis</h4>
-                  <p className="text-red-700 mt-1">Currently at Basic level, needs to reach Intermediate level.</p>
-                  <p className="text-red-600 text-sm mt-2">Critical for data-driven decision making in digital transformation roles.</p>
-                  <span className="inline-block mt-2 bg-red-200 text-red-800 px-2 py-1 rounded text-xs">High Impact</span>
-                </div>
+            <div>
+              <h3 className="text-lg font-semibold text-red-700 mb-4 flex items-center">
+                <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+                High Priority Areas
+              </h3>
+              <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
+                <h4 className="font-semibold text-red-800">Data Analysis</h4>
+                <p className="text-red-700 mt-1">Currently at Basic level, needs to reach Intermediate level.</p>
+                <p className="text-red-600 text-sm mt-2">Critical for data-driven decision making in digital transformation roles.</p>
+                <span className="inline-block mt-2 bg-red-200 text-red-800 px-2 py-1 rounded text-xs">High Impact</span>
               </div>
             </div>
           </section>
 
-          {/* Recommendations */}
+          {/* Learning Recommendations */}
           <section className="p-8 border-b border-gray-200">
             <h2 className="text-2xl font-bold text-gray-800 mb-6">Learning Recommendations</h2>
             
             <div className="space-y-6">
-              {/* Learning Paths */}
               <div>
                 <h3 className="text-lg font-semibold text-green-700 mb-4 flex items-center">
                   <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
@@ -184,7 +179,7 @@ const Index = () => {
                       <strong>Provider:</strong> Coursera • <strong>Duration:</strong> 4 weeks • <strong>Priority:</strong> High
                     </p>
                     <div className="mt-2">
-                      <a href="https://www.coursera.org/learn/data-literacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                      <a href="https://www.coursera.org/learn/data-literacy" className="text-blue-600 text-sm underline">
                         View Course: Data Literacy Basics
                       </a>
                       <span className="text-green-600 text-xs ml-2">• Certificate available</span>
@@ -195,7 +190,7 @@ const Index = () => {
                     <h4 className="font-semibold text-green-800">Digital Marketing Analytics</h4>
                     <p className="text-green-700 mt-1">Master data-driven marketing strategies and measurement.</p>
                     <div className="mt-2">
-                      <a href="https://www.coursera.org/learn/digital-marketing-analytics" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                      <a href="https://www.coursera.org/learn/digital-marketing-analytics" className="text-blue-600 text-sm underline">
                         View Course: Digital Marketing Analytics
                       </a>
                       <span className="text-green-600 text-xs ml-2">• Google Analytics Certificate</span>
@@ -206,7 +201,7 @@ const Index = () => {
                     <h4 className="font-semibold text-green-800">Project Management for Digital Transformation</h4>
                     <p className="text-green-700 mt-1">Learn to lead change initiatives in digital environments.</p>
                     <div className="mt-2">
-                      <a href="https://www.coursera.org/specializations/digital-transformation" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                      <a href="https://www.coursera.org/specializations/digital-transformation" className="text-blue-600 text-sm underline">
                         View Course: Digital Transformation Specialization
                       </a>
                     </div>
@@ -214,7 +209,6 @@ const Index = () => {
                 </div>
               </div>
 
-              {/* Practical Exercises */}
               <div>
                 <h3 className="text-lg font-semibold text-blue-700 mb-4 flex items-center">
                   <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
@@ -229,7 +223,7 @@ const Index = () => {
                     <h4 className="font-semibold text-blue-800">Create a dashboard for key performance metrics</h4>
                     <p className="text-blue-700 mt-1 text-sm">Build hands-on experience with data visualization tools.</p>
                     <div className="mt-2">
-                      <a href="https://www.coursera.org/learn/data-visualization-tableau" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                      <a href="https://www.coursera.org/learn/data-visualization-tableau" className="text-blue-600 text-sm underline">
                         Related Resource: Data Visualization with Tableau
                       </a>
                     </div>
