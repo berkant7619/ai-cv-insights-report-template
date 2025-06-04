@@ -1,4 +1,3 @@
-
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -177,10 +176,41 @@ const Index = () => {
                   <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                   Recommended Courses
                 </h3>
-                <div className="bg-green-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-green-800">Data Literacy Fundamentals</h4>
-                  <p className="text-green-700 mt-1">Develop foundational data analysis skills for marketing insights.</p>
-                  <p className="text-green-600 text-sm mt-2"><strong>Provider:</strong> Coursera • <strong>Duration:</strong> 4 weeks • <strong>Priority:</strong> High</p>
+                <div className="space-y-4">
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-semibold text-green-800">Data Literacy Fundamentals</h4>
+                    <p className="text-green-700 mt-1">Develop foundational data analysis skills for marketing insights.</p>
+                    <p className="text-green-600 text-sm mt-2">
+                      <strong>Provider:</strong> Coursera • <strong>Duration:</strong> 4 weeks • <strong>Priority:</strong> High
+                    </p>
+                    <div className="mt-2">
+                      <a href="https://www.coursera.org/learn/data-literacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                        View Course: Data Literacy Basics
+                      </a>
+                      <span className="text-green-600 text-xs ml-2">• Certificate available</span>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-semibold text-green-800">Digital Marketing Analytics</h4>
+                    <p className="text-green-700 mt-1">Master data-driven marketing strategies and measurement.</p>
+                    <div className="mt-2">
+                      <a href="https://www.coursera.org/learn/digital-marketing-analytics" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                        View Course: Digital Marketing Analytics
+                      </a>
+                      <span className="text-green-600 text-xs ml-2">• Google Analytics Certificate</span>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-green-50 p-4 rounded-lg">
+                    <h4 className="font-semibold text-green-800">Project Management for Digital Transformation</h4>
+                    <p className="text-green-700 mt-1">Learn to lead change initiatives in digital environments.</p>
+                    <div className="mt-2">
+                      <a href="https://www.coursera.org/specializations/digital-transformation" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                        View Course: Digital Transformation Specialization
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -198,6 +228,11 @@ const Index = () => {
                   <div className="bg-blue-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-blue-800">Create a dashboard for key performance metrics</h4>
                     <p className="text-blue-700 mt-1 text-sm">Build hands-on experience with data visualization tools.</p>
+                    <div className="mt-2">
+                      <a href="https://www.coursera.org/learn/data-visualization-tableau" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 text-sm underline">
+                        Related Resource: Data Visualization with Tableau
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
