@@ -11,15 +11,15 @@ const Index = () => {
                 JD
               </div>
               <div className="flex-1 text-center md:text-left">
-                <h1 className="text-3xl font-bold mb-2">{{candidate_name}}</h1>
+                <h1 className="text-3xl font-bold mb-2">{"{{candidate_name}}"}</h1>
                 <p className="text-blue-100 text-lg mb-4">AI Skills Analysis Report</p>
                 <div className="flex flex-col sm:flex-row items-center gap-4">
                   <div className="bg-white/20 px-4 py-2 rounded-full">
                     <span className="text-sm">AI Readiness Score: </span>
-                    <span className="font-bold text-xl">{{score}}/100</span>
+                    <span className="font-bold text-xl">{"{{score}}"}/100</span>
                   </div>
                   <div className="text-blue-100 text-sm">
-                    Generated on {{report_date}}
+                    Generated on {"{{report_date}}"}
                   </div>
                 </div>
               </div>
@@ -33,10 +33,10 @@ const Index = () => {
               <div>
                 <div className="mb-4">
                   <span className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                    {{skill_level}}
+                    {"{{skill_level}}"}
                   </span>
                 </div>
-                <p className="text-gray-600 leading-relaxed">{{score_description}}</p>
+                <p className="text-gray-600 leading-relaxed">{"{{score_description}}"}</p>
               </div>
               <div>
                 <h3 className="font-semibold text-gray-700 mb-3">AI Readiness Score</h3>
@@ -44,7 +44,7 @@ const Index = () => {
                   <div className="w-full bg-gray-200 rounded-full h-4">
                     <div className="bg-gradient-to-r from-blue-500 to-indigo-600 h-4 rounded-full transition-all duration-300" style={{width: '75%'}}></div>
                   </div>
-                  <span className="absolute right-0 top-5 text-sm text-gray-600">{{score}}/100</span>
+                  <span className="absolute right-0 top-5 text-sm text-gray-600">{"{{score}}"}/100</span>
                 </div>
               </div>
             </div>
@@ -221,7 +221,7 @@ const Index = () => {
           {/* Footer */}
           <footer className="bg-gray-50 p-6 text-center">
             <p className="text-gray-500 text-sm">
-              AI Skills Analysis Report • Generated on {{report_date}} • Powered by AI Career Analytics
+              AI Skills Analysis Report • Generated on {"{{report_date}}"} • Powered by AI Career Analytics
             </p>
           </footer>
         </div>
